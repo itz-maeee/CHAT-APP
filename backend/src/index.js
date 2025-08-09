@@ -13,6 +13,7 @@ dotenv.config();
 
 const PORT = process.env.PORT;
 
+
 app.use(express.json()); //to parse JSON data from the request body
 app.use(cookiePardser()); //to parse cookies from the request
 app.use(cors({
